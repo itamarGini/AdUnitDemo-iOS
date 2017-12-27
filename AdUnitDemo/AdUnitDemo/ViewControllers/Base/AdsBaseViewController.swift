@@ -11,9 +11,7 @@ import GoogleMobileAds
 
 class AdsBaseViewController: UIViewController {
     
-    var adSlpashView    : AdSplashView!
-    var bannerView      : GADBannerView!
-    var interstitial    : GADInterstitial!
+    var adSlpashView         : AdSplashView!
     var adProvider           : BannerAdProvider?
     var interstitialProvider : InterstitialProvider?
     
@@ -55,8 +53,8 @@ extension AdsBaseViewController
 
 extension AdsBaseViewController : AdProviderProtocol
 {
-    func adProvider(didFinishWith result: Ads.AdProviderResultEnum) {
-        
+    func adProvider(didFinishWith result: Ads.AdProviderResultEnum)
+    {
         switch result
         {
         case .tablewView :
@@ -78,21 +76,11 @@ extension AdsBaseViewController : InterstitialProviderProtocol
         // Present Splash
         guard let mainWindow = UIApplication.shared.mainWindow() else { return }
         mainWindow.addSubview(adSlpashView)
-
     }
     
     func adWillDismissScreen() {
-        // Remove splash And
+        // Remove splash
         adSlpashView.removeFromSuperview()
-    }
-    
-    func interstitialProvider(_ adProvider: InterstitialProvider, didFinishWith result: Ads.AdProviderResultEnum) {
-        // Present Interstitial
-        switch result
-        {
-        case .interstitial(let ad): ad.present(fromRootViewController: self)
-        default: return
-        }
     }
 }
 
@@ -101,20 +89,5 @@ extension AdsBaseViewController : BannerAdProviderProtocol
     func didFailToReceiveAd(_ adProvider: BannerAdProvider)
     {
         print("Did Fail To Receive Ad")
-    }
-    
-    func bannerProvider(_ adProvider: BannerAdProvider, didFinishWith result : Ads.AdProviderResultEnum )
-    {
-        switch result
-        {
-        case .tablewView :
-            //TODO: implemet table insertion
-            print("implemet table insertion")
-            
-        case .regular(let bannerView) :
-            addBannerViewToView(bannerView)
-            print("Ad Have Received")
-        default: return
-        }
     }
 }

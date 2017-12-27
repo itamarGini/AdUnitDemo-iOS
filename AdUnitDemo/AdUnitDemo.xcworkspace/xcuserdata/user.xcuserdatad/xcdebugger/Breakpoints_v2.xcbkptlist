@@ -106,28 +106,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "536025700.301784"
+            timestampString = "536064466.863396"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
             landmarkName = "interstitial(_:didFailToReceiveAdWithError:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AdUnitDemo/ViewControllers/Base/AdsBaseViewController.swift"
-            timestampString = "536061164.657401"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
-            landmarkName = "bannerProvider(_:didFinishWith:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -182,11 +166,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "536025700.302057"
+            timestampString = "536064466.8636"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "interstitialDidReceiveAd(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -214,11 +198,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "536025700.302168"
+            timestampString = "536064466.863687"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "provideIntrstitial()"
             landmarkType = "7">
          </BreakpointContent>
@@ -229,60 +213,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AdUnitDemo/ViewControllers/Base/AdsBaseViewController.swift"
-            timestampString = "536061164.658243"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
-            landmarkName = "interstitialProvider(_:didFinishWith:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AdUnitDemo.AdsBaseViewController.interstitialProvider(AdUnitDemo.InterstitialProvider, didFinishWith: AdUnitDemo.Ads.AdProviderResultEnum) -&gt; ()"
-                  moduleName = "AdUnitDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/user/Gini/ynet/Example%20Projects/AdUnitDemo/AdUnitDemo/ViewControllers/Base/AdsBaseViewController.swift"
-                  timestampString = "536058283.034466"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "74"
-                  endingLineNumber = "74"
-                  offsetFromSymbolStart = "84">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AdUnitDemo.AdsBaseViewController.interstitialProvider(AdUnitDemo.InterstitialProvider, didFinishWith: AdUnitDemo.Ads.AdProviderResultEnum) -&gt; ()"
-                  moduleName = "AdUnitDemo"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/user/Gini/ynet/Example%20Projects/AdUnitDemo/AdUnitDemo/ViewControllers/Base/AdsBaseViewController.swift"
-                  timestampString = "536058283.037894"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "74"
-                  endingLineNumber = "74"
-                  offsetFromSymbolStart = "121">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "536025700.302281"
+            timestampString = "536064466.863771"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "124"
-            endingLineNumber = "124"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
             landmarkName = "interstitialWillLeaveApplication(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -294,11 +230,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "536025700.302331"
+            timestampString = "536064466.863816"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
             landmarkName = "interstitialDidDismissScreen(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -310,11 +246,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "536025700.302383"
+            timestampString = "536064466.863858"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
             landmarkName = "interstitialWillDismissScreen(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -326,11 +262,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "536025700.302449"
+            timestampString = "536064466.863899"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "interstitialDidFail(toPresentScreen:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -342,11 +278,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "536025700.3025"
+            timestampString = "536064466.863938"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "interstitialWillPresentScreen(_:)"
             landmarkType = "7">
             <Locations>

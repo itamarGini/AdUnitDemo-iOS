@@ -12,7 +12,6 @@ import GoogleMobileAds
 protocol BannerAdProviderProtocol : AdProviderProtocol
 {
     func didFailToReceiveAd(_ adProvider: BannerAdProvider)
-    func bannerProvider(_ adProvider: BannerAdProvider, didFinishWith result : Ads.AdProviderResultEnum )
 }
 
 class BannerAdProvider: NSObject
@@ -30,6 +29,7 @@ class BannerAdProvider: NSObject
          rootViewController : UIViewController,
          andDelegate delegate : BannerAdProviderProtocol)
     {
+        self.bannerView         = DFPBannerView(adSize: kGADAdSizeSmartBannerPortrait)
         self.adType             = type
         self.adUnit             = adUnit
         self.customParams       = customParams
@@ -40,7 +40,6 @@ class BannerAdProvider: NSObject
         
         provideAd()
     }
-    
     
     func provideAd()
     {
@@ -61,9 +60,9 @@ class BannerAdProvider: NSObject
         bannerView.validAdSizes = adSizes
         bannerView.adUnitID     = adUnit
         bannerView.rootViewController = rootViewController
+        bannerView.delegate = self
         
         bannerView.load(DFPRequest())
-        bannerView.delegate = self
     }
 }
 
@@ -73,7 +72,6 @@ extension BannerAdProvider : GADBannerViewDelegate
     /// Tells the delegate an ad request loaded an ad.
     func adViewDidReceiveAd(_ bannerView: GADBannerView)
     {        
-        delegate?.bannerProvider(self, didFinishWith: .regular(bannerView))
         delegate?.adProvider(didFinishWith: .regular(bannerView))
         print(">>> adViewDidReceiveAd")
     }

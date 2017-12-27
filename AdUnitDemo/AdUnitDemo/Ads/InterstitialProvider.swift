@@ -9,11 +9,10 @@
 import UIKit
 import GoogleMobileAds
 
-protocol InterstitialProviderProtocol : class
+protocol InterstitialProviderProtocol : AdProviderProtocol
 {
     func willBeginRetrieveAd()
     func adWillDismissScreen()
-    func interstitialProvider(_ adProvider: InterstitialProvider, didFinishWith result : Ads.AdProviderResultEnum )
 }
 
 class InterstitialProvider : NSObject
@@ -78,7 +77,7 @@ extension InterstitialProvider : GADInterstitialDelegate
         /// application such as when transitioning between view controllers.
         
         if ad.isReady {
-            delegate?.interstitialProvider(self, didFinishWith: .interstitial(ad))
+            delegate?.adProvider(didFinishWith: .interstitial(ad))
             
         } else {
             print(">>>Ad wasn't ready")

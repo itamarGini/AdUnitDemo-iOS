@@ -102,7 +102,6 @@ extension InterstitialProvider : GADInterstitialDelegate
             guard let strongSelf = self else { return }
             strongSelf.delegate?.adWillDismissScreen()
         }
-        
     }
     
     func interstitialDidFail(toPresentScreen ad: GADInterstitial) {

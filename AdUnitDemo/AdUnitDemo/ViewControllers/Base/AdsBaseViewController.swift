@@ -14,9 +14,14 @@ class AdsBaseViewController: UIViewController {
     var adSlpashView         : AdSplashView!
     var adProvider           : BannerAdProvider?
     var interstitialProvider : InterstitialProvider?
+    let bannerAdContainerView = UIView.init(frame:CGRect(x: 0,
+                                                         y: 0,
+                                                         width: UIScreen.main.bounds.width,
+                                                         height: 50))
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addBottomView(bannerAdContainerView)
         adSlpashView = AdSplashView(frame: view.bounds)
     }
     
@@ -29,25 +34,10 @@ class AdsBaseViewController: UIViewController {
 //MARK: - Private Helpers
 extension AdsBaseViewController
 {
-    func addBannerViewToView(_ bannerView: GADBannerView) {
-        bannerView.translatesAutoresizingMaskIntoConstraints = false
-        view.addSubview(bannerView)
-        view.addConstraints(
-            [NSLayoutConstraint(item: bannerView,
-                                attribute: .bottom,
-                                relatedBy: .equal,
-                                toItem: view.safeAreaLayoutGuide,
-                                attribute: .bottom,
-                                multiplier: 1,
-                                constant: 0),
-             NSLayoutConstraint(item: bannerView,
-                                attribute: .centerX,
-                                relatedBy: .equal,
-                                toItem: view,
-                                attribute: .centerX,
-                                multiplier: 1,
-                                constant: 0)
-            ])
+    func addBannerViewToContainerView(_ bannerView: GADBannerView)
+    {
+        bannerAdContainerView.subviews.forEach({ $0.removeFromSuperview() })
+        bannerAdContainerView.addBottomView(bannerView)
     }
 }
 
@@ -61,10 +51,12 @@ extension AdsBaseViewController : AdProviderProtocol
             //TODO: implemet table insertion
             print("implemet table insertion")
             
-        case .regular(let bannerView) : addBannerViewToView(bannerView)
+        case .regular(let bannerView) :
+            addBannerViewToContainerView(bannerView)
             print("Banner Ad Have been Received")
             
-        case .interstitial(let ad): ad.present(fromRootViewController: self)
+        case .interstitial(let ad):
+            ad.present(fromRootViewController: self)
             print("Interstitial Have been Received")
         }
     }

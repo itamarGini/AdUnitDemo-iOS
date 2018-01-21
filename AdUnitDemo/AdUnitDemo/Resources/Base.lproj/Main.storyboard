@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GNw-Xm-QQh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gFA-Gj-Qg3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -40,6 +40,23 @@ It's alright we told you what to dream..."</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eY3-ds-bFU">
+                                <rect key="frame" x="90" y="518.5" width="195" height="30"/>
+                                <color key="backgroundColor" red="0.80269988430000005" green="0.91264520549999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="O5n-uL-2bH"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="195" id="YMF-8L-hbO"/>
+                                </constraints>
+                                <state key="normal" title="Try Table Ads"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="BXg-jd-6jo" kind="push" id="N5R-wO-C8S"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -48,14 +65,60 @@ It's alright we told you what to dream..."</string>
                             <constraint firstItem="pwI-5m-Zee" firstAttribute="centerX" secondItem="MXr-zc-K36" secondAttribute="centerX" id="Ui5-dp-aqR"/>
                             <constraint firstItem="MIN-FV-CtY" firstAttribute="centerY" secondItem="MXr-zc-K36" secondAttribute="centerY" multiplier="0.8" id="VRV-a2-WkF"/>
                             <constraint firstItem="MIN-FV-CtY" firstAttribute="centerX" secondItem="MXr-zc-K36" secondAttribute="centerX" id="XrC-JB-7fb"/>
+                            <constraint firstItem="eY3-ds-bFU" firstAttribute="centerX" secondItem="MXr-zc-K36" secondAttribute="centerX" id="fU6-07-jnT"/>
                             <constraint firstItem="2dp-7d-yR1" firstAttribute="centerX" secondItem="MXr-zc-K36" secondAttribute="centerX" id="hWu-MY-2j4"/>
+                            <constraint firstItem="eY3-ds-bFU" firstAttribute="centerY" secondItem="MXr-zc-K36" secondAttribute="centerY" multiplier="1.6" id="lya-b5-H4c"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lWq-1K-FqW"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Bvv-fT-dND"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jKE-Lc-wSk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-618.39999999999998" y="132.68365817091455"/>
+            <point key="canvasLocation" x="-279.19999999999999" y="132.68365817091455"/>
+        </scene>
+        <!--Ads Table View Controller-->
+        <scene sceneID="3yH-oP-4le">
+            <objects>
+                <viewController id="BXg-jd-6jo" customClass="AdsTableViewController" customModule="AdUnitDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FUd-lT-mv2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZZC-Un-i2c">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZZC-Un-i2c" firstAttribute="leading" secondItem="Bcb-4w-Vw9" secondAttribute="leading" id="7jr-3M-Huk"/>
+                            <constraint firstItem="ZZC-Un-i2c" firstAttribute="top" secondItem="Bcb-4w-Vw9" secondAttribute="top" id="fM9-5M-l3i"/>
+                            <constraint firstItem="Bcb-4w-Vw9" firstAttribute="trailing" secondItem="ZZC-Un-i2c" secondAttribute="trailing" id="mgN-hO-jQY"/>
+                            <constraint firstItem="Bcb-4w-Vw9" firstAttribute="bottom" secondItem="ZZC-Un-i2c" secondAttribute="bottom" id="zxQ-qx-oji"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bcb-4w-Vw9"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xZ6-rT-BKU">
+                        <nil key="title"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TLx-id-ffH">
+                            <rect key="frame" x="164.5" y="0.0" width="46" height="44"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <viewLayoutGuide key="safeArea" id="Yhn-5X-asa"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                            <state key="normal" title="🤖"/>
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="overCurrentContext" id="Lmq-3B-sp5"/>
+                            </connections>
+                        </button>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="ZZC-Un-i2c" id="Sfq-Pf-O0T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u2s-Yv-Hq3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="510" y="133"/>
         </scene>
         <!--Ad Unit View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -176,6 +239,7 @@ It's alright we told you what to dream..."</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="channelNameTextField" destination="wCk-yV-gkz" id="QJO-JQ-J8Y"/>
                         <outlet property="generatedAdUnitLabel" destination="YfF-02-b45" id="o1e-3M-qMd"/>
@@ -184,7 +248,28 @@ It's alright we told you what to dream..."</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="132.68365817091455"/>
+            <point key="canvasLocation" x="511" y="-607"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="FVY-Ss-BFP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gFA-Gj-Qg3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0d7-4m-pnd">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="GNw-Xm-QQh" kind="relationship" relationship="rootViewController" id="Xdy-PK-PL1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zrJ-X1-Spo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1018" y="133"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Lmq-3B-sp5"/>
+    </inferredMetricsTieBreakers>
 </document>

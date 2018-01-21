@@ -8,12 +8,18 @@
 
 import UIKit
 
-class AdUnitViewController: AdsBaseViewController {
+class AdUnitViewController: UIViewController {
     
     private var channelNumber   : String  = ""
     private var generatedAdunit : String  = ""
     private var productType     = AdProductType(rawValue: 0)!
     var rootViewController      : AdsBaseViewController?
+    {
+        didSet
+        {
+            print(rootViewController)
+        }
+    }
     
     //MARK: - Outlets
     @IBOutlet weak var productTextField: UITextField!

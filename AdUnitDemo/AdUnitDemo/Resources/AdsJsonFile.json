@@ -1,0 +1,254 @@
+{
+    "components": [
+                   {
+                   "name": "person",
+                   "title":"Alber",
+                   "items" : [
+                              {
+                              "song_name" : "Hopa Hey",
+                              "song_length" : "13:22"
+                              },
+                              {
+                              "song_name" : "Chiribim Chiribom",
+                              "song_length" : "21:55"
+                              }
+                            ]
+                   },
+                   {
+                   "name": "native_ads_adunit",
+                   "link_and": "/6870/ynet_mobile/Ynet_Android_Strip_Marketing/Ynet_Android_Strip_Marketing_Home",
+                   "link_ip": "/6870/ynet_mobile/Ynet_Iphone_Strip_Marketing_Home",
+                   "link_op": ""
+                   },
+                   {
+                   "name": "person",
+                   "title":"Beber",
+                   "items" : [
+                              {
+                              "song_name" : "Hopa Hey",
+                              "song_length" : "13:22"
+                              },
+                              {
+                              "song_name" : "Chiribim Chiribom",
+                              "song_length" : "21:55"
+                              }
+                              ]
+                   },
+                   {
+                   "name": "native_ads_adunit",
+                   "link_and": "/6870/ynet_mobile/Ynet_Android_Marketing_Ordering/Ynet_Android_Marketing_Ordering_Sport",
+                   "link_ip": "/6870/ynet_mobile/Ynet_Iphone_Marketing_Ordering/Ynet_Iphone_Marketing_Ordering_Sport",
+                   "link_op": ""
+                   },
+                   {
+                   "name": "person",
+                   "title":"Colin",
+                   "items" : [
+                              {
+                              "song_name" : "Hopa Hey",
+                              "song_length" : "13:22"
+                              },
+                              {
+                              "song_name" : "Chiribim Chiribom",
+                              "song_length" : "21:55"
+                              }
+                              ]
+                   },
+                   {
+                   "name": "banner_app_adunit",
+                   "img_and_700x164": "adunit_inbox",
+                   "img_ip_640x150": "adunit_inbox",
+                   "img_op_640x150": "adunit_inbox",
+                   "link_and": "/6870/ynet_mobile/ynet_android_inbox0",
+                   "link_ip": "/6870/ynet_mobile/ynet_iphone_inbox0",
+                   "link_op_iphone": "/6870/ynet_mobile/ynet_mobileweb_iphone_inbox0",
+                   "link_op_android": "/6870/ynet_mobile/ynet_mobileweb_android_inbox0",
+                   "img_and_width_320": 320,
+                   "img_and_width_360": 360,
+                   "img_and_height": 75,
+                   "img_ip_width": 320,
+                   "img_ip_height": 75,
+                   "img_op_height": 102
+                   },
+                   {
+                   "name": "person",
+                   "title":"Dude",
+                   "items" : [
+                              {
+                              "song_name" : "Hopa Hey",
+                              "song_length" : "13:22"
+                              },
+                              {
+                              "song_name" : "Chiribim Chiribom",
+                              "song_length" : "21:55"
+                              }
+                              ]
+                   },
+                   {
+                   "name": "banner_app_adunit",
+                   "img_and_700x164": "adunit_inbox",
+                   "img_ip_640x150": "adunit_inbox",
+                   "img_op_640x150": "adunit_inbox",
+                   "link_and": "/6870/ynet_mobile/ynet_android_inbox4",
+                   "link_ip": "/6870/ynet_mobile/ynet_iphone_inbox4",
+                   "link_op_iphone": "/6870/ynet_mobile/ynet_mobileweb_iphone_inbox4",
+                   "link_op_android": "/6870/ynet_mobile/ynet_mobileweb_android_inbox4",
+                   "img_and_width_320": 320,
+                   "img_and_width_360": 360,
+                   "img_and_height": 68,
+                   "img_ip_width": 320,
+                   "img_ip_height": 65,
+                   "img_op_height": 102
+                   },
+                   {
+                   "name": "person",
+                   "title":"Edgar",
+                   "items" : [
+                              {
+                              "song_name" : "Hopa Hey",
+                              "song_length" : "13:22"
+                              },
+                              {
+                              "song_name" : "Chiribim Chiribom",
+                              "song_length" : "21:55"
+                              }
+                              ]
+                   },
+                   {
+                   "name": "banner_app_adunit",
+                   "img_and_700x164": "adunit_inbox",
+                   "img_ip_640x150": "adunit_inbox",
+                   "img_op_640x150": "adunit_inbox",
+                   "link_and": "/6870/ynet_mobile/ynet_android_inbox",
+                   "link_ip": "/6870/ynet_mobile/ynet_iphone_inbox",
+                   "link_op_iphone": "/6870/ynet_mobile/ynet_mobileweb_iphone_inbox",
+                   "link_op_android": "/6870/ynet_mobile/ynet_mobileweb_android_inbox",
+                   "img_and_width_320": 320,
+                   "img_and_width_360": 360,
+                   "img_and_height": 200,
+                   "img_ip_width": 320,
+                   "img_ip_height": 200
+                   },
+                   {
+                   "name": "person",
+                   "title":"Fabian",
+                   "items" : [
+                              {
+                              "song_name" : "Hopa Hey",
+                              "song_length" : "13:22"
+                              },
+                              {
+                              "song_name" : "Chiribim Chiribom",
+                              "song_length" : "21:55"
+                              }
+                              ]
+                   },
+                   {
+                   "name": "banner_app_adunit",
+                   "img_and_700x164": "adunit_inbox",
+                   "img_ip_640x150": "adunit_inbox",
+                   "img_op_640x150": "adunit_inbox",
+                   "link_and": "/6870/ynet_mobile/ynet_android_inbox3",
+                   "link_ip": "/6870/ynet_mobile/ynet_iphone_inbox3",
+                   "link_op_iphone": "/6870/ynet_mobile/ynet_mobileweb_iphone_inbox3",
+                   "link_op_android": "/6870/ynet_mobile/ynet_mobileweb_android_inbox3",
+                   "img_and_width_320": 320,
+                   "img_and_width_360": 360,
+                   "img_and_height": 200,
+                   "img_ip_width": 320,
+                   "img_ip_height": 180
+                   },
+                   {
+                   "name": "person",
+                   "title":"Gerolamo",
+                   "items" : [
+                              {
+                              "song_name" : "Hopa Hey",
+                              "song_length" : "13:22"
+                              },
+                              {
+                              "song_name" : "Chiribim Chiribom",
+                              "song_length" : "21:55"
+                              }
+                              ]
+                   },
+                   {
+                   "name": "banner_app_adunit",
+                   "img_and_700x164": "adunit_inbox",
+                   "img_ip_640x150": "adunit_inbox",
+                   "img_op_640x150": "adunit_inbox",
+                   "link_and": "/6870/ynet_mobile/ynet_android_inbox5",
+                   "link_ip": "/6870/ynet_mobile/ynet_iphone_inbox5",
+                   "link_op_iphone": "/6870/ynet_mobile/ynet_mobileweb_iphone_inbox5",
+                   "link_op_android": "/6870/ynet_mobile/ynet_mobileweb_android_inbox5",
+                   "img_and_width_320": 320,
+                   "img_and_width_360": 360,
+                   "img_and_height": 140,
+                   "img_ip_width": 320,
+                   "img_ip_height": 140
+                   },
+                   {
+                   "name": "person",
+                   "title":"Huze",
+                   "items" : [
+                              {
+                              "song_name" : "Hopa Hey",
+                              "song_length" : "13:22"
+                              },
+                              {
+                              "song_name" : "Chiribim Chiribom",
+                              "song_length" : "21:55"
+                              }
+                              ]
+                   },
+                   {
+                   "name": "banner_app_adunit",
+                   "img_and_700x164": "adunit_inbox",
+                   "img_ip_640x150": "adunit_inbox",
+                   "img_op_640x150": "adunit_inbox",
+                   "link_and": "/6870/ynet_mobile/ynet_android_inbox6",
+                   "link_ip": "/6870/ynet_mobile/ynet_iphone_inbox6",
+                   "link_op_iphone": "/6870/ynet_mobile/ynet_mobileweb_iphone_inbox6",
+                   "link_op_android": "/6870/ynet_mobile/ynet_mobileweb_android_inbox6",
+                   "img_and_width_320": 320,
+                   "img_and_width_360": 360,
+                   "img_and_height": 200,
+                   "img_ip_width": 320,
+                   "img_ip_height": 180
+                   },
+                   {
+                   "name": "person",
+                   "title":"Itamar",
+                   "items" : [
+                              {
+                              "song_name" : "Hopa Hey",
+                              "song_length" : "13:22"
+                              },
+                              {
+                              "song_name" : "Chiribim Chiribom",
+                              "song_length" : "21:55"
+                              }
+                              ]
+                   },
+                   {
+                   "name": "native_ads_adunit",
+                   "link_and": "/6870/ynet_mobile/ynet_android_inbox7",
+                   "link_ip": "/6870/ynet_mobile/ynet_iphone_inbox7",
+                   "link_op": "/6870/ynet_mobile/ynet_mobileweb_android_inbox7"
+                   },
+                   {
+                   "name": "person",
+                   "title":"James",
+                   "items" : [
+                              {
+                              "song_name" : "Hopa Hey",
+                              "song_length" : "13:22"
+                              },
+                              {
+                              "song_name" : "Chiribim Chiribom",
+                              "song_length" : "21:55"
+                              }
+                              ]
+                   }
+                   ]
+}

@@ -6,22 +6,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AdUnitDemo/ViewControllers/WelcomeViewController.swift"
-            timestampString = "536025700.301445"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "motionEnded(_:with:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -106,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "536064466.863396"
+            timestampString = "537883400.063325"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "89"
@@ -166,7 +150,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "536064466.8636"
+            timestampString = "537883400.063485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "78"
@@ -182,11 +166,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/ViewControllers/Base/AdsBaseViewController.swift"
-            timestampString = "536061164.657948"
+            timestampString = "537883400.06354"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
             landmarkName = "willBeginRetrieveAd()"
             landmarkType = "7">
          </BreakpointContent>
@@ -198,7 +182,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "536064466.863687"
+            timestampString = "537883400.063862"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "51"
@@ -214,11 +198,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "536064466.863771"
+            timestampString = "537883400.063907"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
             landmarkName = "interstitialWillLeaveApplication(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -230,11 +214,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "536064466.863816"
+            timestampString = "537883400.0639499"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
             landmarkName = "interstitialDidDismissScreen(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -246,11 +230,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "536064466.863858"
+            timestampString = "537883400.063992"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
             landmarkName = "interstitialWillDismissScreen(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -262,11 +246,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "536064466.863899"
+            timestampString = "537883400.064032"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
             landmarkName = "interstitialDidFail(toPresentScreen:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -278,7 +262,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "536064466.863938"
+            timestampString = "537883400.064073"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "97"
@@ -293,12 +277,12 @@
                   symbolName = "AdUnitDemo.InterstitialProvider.interstitialWillPresentScreen(__ObjC.GADInterstitial) -&gt; ()"
                   moduleName = "AdUnitDemo"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/user/Gini/ynet/Example%20Projects/AdUnitDemo/AdUnitDemo/Ads/InterstitialProvider.swift"
-                  timestampString = "536058283.066209"
+                  urlString = "file:///Users/user/Gini/ynet/Public%20Example%20Projects/AdUnitDemo-iOS/AdUnitDemo/AdUnitDemo/Ads/InterstitialProvider.swift"
+                  timestampString = "538245079.678985"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "101"
-                  endingLineNumber = "101"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
                   offsetFromSymbolStart = "21">
                </Location>
                <Location
@@ -308,15 +292,207 @@
                   symbolName = "closure #1 () -&gt; () in AdUnitDemo.InterstitialProvider.interstitialWillPresentScreen(__ObjC.GADInterstitial) -&gt; ()"
                   moduleName = "AdUnitDemo"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/user/Gini/ynet/Example%20Projects/AdUnitDemo/AdUnitDemo/Ads/InterstitialProvider.swift"
-                  timestampString = "536058283.069087"
+                  urlString = "file:///Users/user/Gini/ynet/Public%20Example%20Projects/AdUnitDemo-iOS/AdUnitDemo/AdUnitDemo/Ads/InterstitialProvider.swift"
+                  timestampString = "538245079.680789"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "101"
-                  endingLineNumber = "101"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
                   offsetFromSymbolStart = "18">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdUnitDemo/Ads/BannerAdProvider.swift"
+            timestampString = "537882445.438693"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "provideAd()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdUnitDemo/ViewControllers/AdUnitViewController.swift"
+            timestampString = "537883400.064155"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "provideAdWithAdunit(forAdProduct:and:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdUnitDemo/ViewControllers/AdUnitViewController.swift"
+            timestampString = "537883400.0642051"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "generateButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdUnitDemo/ViewControllers/Base/AdsBaseViewController.swift"
+            timestampString = "537883400.06426"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "addBannerViewToContainerView(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdUnitDemo.AdsBaseViewController.addBannerViewToContainerView(__ObjC.GADBannerView) -&gt; ()"
+                  moduleName = "AdUnitDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Gini/ynet/Public%20Example%20Projects/AdUnitDemo-iOS/AdUnitDemo/AdUnitDemo/ViewControllers/Base/AdsBaseViewController.swift"
+                  timestampString = "538245079.68996"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__ObjC.UIView) -&gt; () in AdUnitDemo.AdsBaseViewController.addBannerViewToContainerView(__ObjC.GADBannerView) -&gt; ()"
+                  moduleName = "AdUnitDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Gini/ynet/Public%20Example%20Projects/AdUnitDemo-iOS/AdUnitDemo/AdUnitDemo/ViewControllers/Base/AdsBaseViewController.swift"
+                  timestampString = "538245079.691762"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdUnitDemo/Model/ComponentsGenerator.swift"
+            timestampString = "538245117.7251"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "generateComponent(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdUnitDemo/Model/ComponentsGenerator.swift"
+            timestampString = "538245117.725477"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "generateComponent(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdUnitDemo/ViewControllers/Second VC/AdsTableViewController.swift"
+            timestampString = "538245117.725686"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "dataControllerDidFinishUpdateData(_:with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdUnitDemo/Model Generators/PersonCellGenerator.swift"
+            timestampString = "538245117.725741"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "configure(cell:by:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdUnitDemo/Model Generators/PersonCellGenerator.swift"
+            timestampString = "538245117.725787"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "registerReuseIdentifier(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdUnitDemo/Model Generators/TableCellFactory.swift"
+            timestampString = "538245117.725832"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "registerReuseIdentifiers(for:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

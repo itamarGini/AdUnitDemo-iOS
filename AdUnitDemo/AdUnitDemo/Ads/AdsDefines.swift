@@ -11,6 +11,8 @@ import GoogleMobileAds
 
 struct Ads
 {
+    static var heightRatio  = UIScreen.main.bounds.height / 568 // Base Height is iPhone SE (= 568)
+    
     enum AdsType
     {
         case interstitial
@@ -28,4 +30,11 @@ struct Ads
         case interstitial(GADInterstitial)
         case tablewView(UIView?,IndexPath?)
     }
+    
+    enum ComponentsType : String {
+        case person             = "person"
+        case bannerAppAdunit    = "banner_app_adunit"
+        case nativeAdsAdunit    = "native_ads_adunit"
+    }
+    
 }

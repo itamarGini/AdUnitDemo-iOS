@@ -18,7 +18,7 @@ struct TableCellFactory
         {
             switch object.componentType
             {
-            case .person             : generator = PersonCellGenerator.self
+            case .artist             : generator = ArtistCellGenerator.self
             default                 : break
             }
         }
@@ -33,7 +33,7 @@ struct TableCellFactory
     
     static func heightForRow(for object: Any?, with indexPath: IndexPath) -> CGFloat
     {
-        let personHeightMultiplier       : CGFloat = 0.3
+        let artistHeightMultiplier       : CGFloat = 0.3
         
         let screenWidth = UIScreen.main.bounds.width
         var height      : CGFloat = 0
@@ -42,7 +42,7 @@ struct TableCellFactory
         {
             switch object.componentType
             {
-            case .person     : height = screenWidth * personHeightMultiplier
+            case .artist     : height = screenWidth * artistHeightMultiplier
             default                 : height = 50
             }
         }
@@ -51,7 +51,7 @@ struct TableCellFactory
     
     static func registerReuseIdentifiers(for tableView: UITableView)
     {
-        PersonCellGenerator.registerReuseIdentifier(for: tableView)
+        ArtistCellGenerator.registerReuseIdentifier(for: tableView)
     }
 }
 

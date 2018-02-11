@@ -1,5 +1,5 @@
 //
-//  PersonCellGenerator.swift
+//  ArtistCellGenerator.swift
 //  AdUnitDemo
 //
 //  Created by Itamar Nakar on 21/01/2018.
@@ -8,23 +8,23 @@
 
 import UIKit
 
-internal struct PersonCellGenerator : TableCellGeneratorProtocol {
+internal struct ArtistCellGenerator : TableCellGeneratorProtocol {
     
     // MARK: - Protocol methods
     static func cell(for indexPath: IndexPath, inTableVIew tableView: UITableView) -> UITableViewCell
     {
-        return tableView.dequeueReusableCell(withIdentifier: PersonCell.cellID, for: indexPath)
+        return tableView.dequeueReusableCell(withIdentifier: ArtistCell.cellID, for: indexPath)
     }
     
     static func registerReuseIdentifier(for tableView: UITableView)
     {
-        tableView.register(PersonCell.cellNib, forCellReuseIdentifier: PersonCell.cellID)
+        tableView.register(ArtistCell.cellNib, forCellReuseIdentifier: ArtistCell.cellID)
     }
     
     static func configure(cell: UITableViewCell, by object: Any)
     {
         guard let metaData = object as? MultiItemMetaData else { return }
-        guard let cell = cell as? PersonCell else { return }
+        guard let cell = cell as? ArtistCell else { return }
         
         cell.songNameLable.text     = metaData.title
         cell.songLengthLable.text   = metaData.subTitle

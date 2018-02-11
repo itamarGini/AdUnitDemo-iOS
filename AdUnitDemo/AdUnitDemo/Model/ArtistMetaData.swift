@@ -1,5 +1,5 @@
 //
-//  Person.swift
+//  Artist.swift
 //  AdUnitDemo
 //
 //  Created by Itamar Nakar on 17/01/2018.
@@ -7,17 +7,17 @@
 //
 
 import Foundation
-//person
-struct PersonMetaData
+//artist
+struct ArtistMetaData
 {
     var name          : String
     var title         : String!
     let items         : [CategoryItemMetaData]?
     let headerMetaData: HeaderMetaData?
-    let componentType : Ads.ComponentsType = .person
+    let componentType : Ads.ComponentsType = .artist
 }
 
-extension PersonMetaData: MultiItemMetaDataComponent
+extension ArtistMetaData: MultiItemMetaDataComponent
 {    
     static func generate(from dictionary: [String:Any]?) -> Component?
     {
@@ -30,9 +30,9 @@ extension PersonMetaData: MultiItemMetaDataComponent
         guard let dictionary  = dictionary else { return nil }
         let name   = dictionary[generatorKeys.name.rawValue] as? String ?? ""
         let title  = dictionary[generatorKeys.title.rawValue] as? String ?? ""
-        let items  = generateItemsDataArray(from: dictionary, and: Ads.ComponentsType.person)
+        let items  = generateItemsDataArray(from: dictionary, and: Ads.ComponentsType.artist)
         let header = HeaderMetaData(with: dictionary)
         
-        return PersonMetaData(name: name, title: title, items : items, headerMetaData : header)
+        return ArtistMetaData(name: name, title: title, items : items, headerMetaData : header)
     }
 }

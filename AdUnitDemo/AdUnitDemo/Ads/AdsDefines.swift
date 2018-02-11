@@ -32,9 +32,9 @@ struct Ads
     }
     
     enum ComponentsType : String {
-        case person             = "person"
+        case none               = ""
+        case artist             = "artist"
         case bannerAppAdunit    = "banner_app_adunit"
         case nativeAdsAdunit    = "native_ads_adunit"
     }
-    
 }

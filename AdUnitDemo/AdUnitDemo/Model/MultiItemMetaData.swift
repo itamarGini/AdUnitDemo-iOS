@@ -11,16 +11,19 @@ import Foundation
 struct MultiItemMetaData: CategoryItemMetaData
 {
     var componentType    : Ads.ComponentsType
-    var title            : String
+    let title            : String
     let subTitle         : String
+    let songURL          : String
     
     init(title: String,
          subTitle: String,
+         songURL : String,
          componentType: Ads.ComponentsType)
     {
         self.componentType     = componentType
         self.title             = title
         self.subTitle          = subTitle
+        self.songURL           = songURL
     }
 }
 
@@ -33,9 +36,11 @@ extension MultiItemMetaData
         {
             case title             = "song_name"
             case subTitle          = "song_length"
+            case songURL           = "song_url"
         }
         self.title             = dictionary?[generatorKeys.title.rawValue]    as? String ?? ""
         self.subTitle          = dictionary?[generatorKeys.subTitle.rawValue] as? String ?? ""
+        self.songURL           = dictionary?[generatorKeys.songURL.rawValue] as? String ?? ""
         self.componentType     = componentType
     }
 }

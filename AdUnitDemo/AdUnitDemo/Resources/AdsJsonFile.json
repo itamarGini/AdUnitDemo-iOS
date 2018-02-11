@@ -1,18 +1,20 @@
 {
     "components": [
                    {
-                   "name": "person",
-                   "title":"Alber",
-                   "items" : [
-                              {
-                              "song_name" : "Hopa Hey",
-                              "song_length" : "13:22"
-                              },
-                              {
-                              "song_name" : "Chiribim Chiribom",
-                              "song_length" : "21:55"
-                              }
-                            ]
+                   "name": "artist",
+                   "title": "Alt-J",
+                   "items": [
+                             {
+                             "song_name": "Hunger Of The Pine",
+                             "song_length": "03:46",
+                             "song_url": "https://www.youtube.com/watch?v=dCCXq9QB-dQ"
+                             },
+                             {
+                             "song_name": "Breezeblocks",
+                             "song_length": "03:46",
+                             "song_url": "https://www.youtube.com/watch?v=rVeMiVU77wo&list=PLj_s-SLKieFPsbpyZLyykiaBPYcKLdCLX"
+                             }
+                             ]
                    },
                    {
                    "name": "native_ads_adunit",
@@ -21,18 +23,20 @@
                    "link_op": ""
                    },
                    {
-                   "name": "person",
-                   "title":"Beber",
-                   "items" : [
-                              {
-                              "song_name" : "Hopa Hey",
-                              "song_length" : "13:22"
-                              },
-                              {
-                              "song_name" : "Chiribim Chiribom",
-                              "song_length" : "21:55"
-                              }
-                              ]
+                   "name": "artist",
+                   "title": "Band of Horses",
+                   "items": [
+                             {
+                             "song_name": "The Funeral",
+                             "song_length": "03:44",
+                             "song_url": "https://www.youtube.com/watch?v=cMFWFhTFohk"
+                             },
+                             {
+                             "song_name": "Is There a Ghost",
+                             "song_length": "03:00",
+                             "song_url": "https://www.youtube.com/watch?v=JK716RqoUms"
+                             }
+                             ]
                    },
                    {
                    "name": "native_ads_adunit",
@@ -41,18 +45,20 @@
                    "link_op": ""
                    },
                    {
-                   "name": "person",
-                   "title":"Colin",
-                   "items" : [
-                              {
-                              "song_name" : "Hopa Hey",
-                              "song_length" : "13:22"
-                              },
-                              {
-                              "song_name" : "Chiribim Chiribom",
-                              "song_length" : "21:55"
-                              }
-                              ]
+                   "name": "artist",
+                   "title": "Chet Faker",
+                   "items": [
+                             {
+                             "song_name": "Gold",
+                             "song_length": "04:19",
+                             "song_url": "https://www.youtube.com/watch?v=hi4pzKvuEQM"
+                             },
+                             {
+                             "song_name": "Drop the Game",
+                             "song_length": "04:08",
+                             "song_url": "https://www.youtube.com/watch?v=6vopR3ys8Kw"
+                             }
+                             ]
                    },
                    {
                    "name": "banner_app_adunit",
@@ -71,18 +77,20 @@
                    "img_op_height": 102
                    },
                    {
-                   "name": "person",
-                   "title":"Dude",
-                   "items" : [
-                              {
-                              "song_name" : "Hopa Hey",
-                              "song_length" : "13:22"
-                              },
-                              {
-                              "song_name" : "Chiribim Chiribom",
-                              "song_length" : "21:55"
-                              }
-                              ]
+                   "name": "artist",
+                   "title": "Daughter",
+                   "items": [
+                             {
+                             "song_name": "Youth",
+                             "song_length": "04:10",
+                             "song_url": "https://www.youtube.com/watch?v=VEpMj-tqixs"
+                             },
+                             {
+                             "song_name": "Run",
+                             "song_length": "04:05",
+                             "song_url": "https://www.youtube.com/watch?v=psiILfa-G1c"
+                             }
+                             ]
                    },
                    {
                    "name": "banner_app_adunit",
@@ -101,18 +109,20 @@
                    "img_op_height": 102
                    },
                    {
-                   "name": "person",
-                   "title":"Edgar",
-                   "items" : [
-                              {
-                              "song_name" : "Hopa Hey",
-                              "song_length" : "13:22"
-                              },
-                              {
-                              "song_name" : "Chiribim Chiribom",
-                              "song_length" : "21:55"
-                              }
-                              ]
+                   "name": "artist",
+                   "title": "EVERMORE",
+                   "items": [
+                             {
+                             "song_name": "FOLLOW THE SUN",
+                             "song_length": "04:01",
+                             "song_url": "https://www.youtube.com/watch?v=ZV3hLI-GUY4"
+                             },
+                             {
+                             "song_name": "Hey Boys and Girls",
+                             "song_length": "04:55",
+                             "song_url": "https://www.youtube.com/watch?v=D3cVq1LnwCc"
+                             }
+                             ]
                    },
                    {
                    "name": "banner_app_adunit",
@@ -130,18 +140,20 @@
                    "img_ip_height": 200
                    },
                    {
-                   "name": "person",
-                   "title":"Fabian",
-                   "items" : [
-                              {
-                              "song_name" : "Hopa Hey",
-                              "song_length" : "13:22"
-                              },
-                              {
-                              "song_name" : "Chiribim Chiribom",
-                              "song_length" : "21:55"
-                              }
-                              ]
+                   "name": "artist",
+                   "title": "The Fall",
+                   "items": [
+                             {
+                             "song_name": "Mr. Pharmacist",
+                             "song_length": "02:27",
+                             "song_url": "https://www.youtube.com/watch?v=Cl34oJEoO7s"
+                             },
+                             {
+                             "song_name": "hit the north",
+                             "song_length": "03:44",
+                             "song_url": "https://www.youtube.com/watch?v=v5zav2yrC7M"
+                             }
+                             ]
                    },
                    {
                    "name": "banner_app_adunit",
@@ -159,18 +171,20 @@
                    "img_ip_height": 180
                    },
                    {
-                   "name": "person",
-                   "title":"Gerolamo",
-                   "items" : [
-                              {
-                              "song_name" : "Hopa Hey",
-                              "song_length" : "13:22"
-                              },
-                              {
-                              "song_name" : "Chiribim Chiribom",
-                              "song_length" : "21:55"
-                              }
-                              ]
+                   "name": "artist",
+                   "title": "Gorillaz",
+                   "items": [
+                             {
+                             "song_name": "Feel Good Inc.",
+                             "song_length": "04:13",
+                             "song_url": "https://www.youtube.com/watch?v=HyHNuVaZJ-k"
+                             },
+                             {
+                             "song_name": "Clint Eastwood",
+                             "song_length": "04:28",
+                             "song_url": "https://www.youtube.com/watch?v=1V_xRb0x9aw"
+                             }
+                             ]
                    },
                    {
                    "name": "banner_app_adunit",
@@ -188,18 +202,20 @@
                    "img_ip_height": 140
                    },
                    {
-                   "name": "person",
-                   "title":"Huze",
-                   "items" : [
-                              {
-                              "song_name" : "Hopa Hey",
-                              "song_length" : "13:22"
-                              },
-                              {
-                              "song_name" : "Chiribim Chiribom",
-                              "song_length" : "21:55"
-                              }
-                              ]
+                   "name": "artist",
+                   "title": "Haelos",
+                   "items": [
+                             {
+                             "song_name": "Dust",
+                             "song_length": "04:46",
+                             "song_url": "https://www.youtube.com/watch?v=uXTFP4wcjdA"
+                             },
+                             {
+                             "song_name": "Breathe",
+                             "song_length": "04:53",
+                             "song_url": "https://www.youtube.com/watch?v=8SFdKChT030"
+                             }
+                             ]
                    },
                    {
                    "name": "banner_app_adunit",
@@ -217,18 +233,20 @@
                    "img_ip_height": 180
                    },
                    {
-                   "name": "person",
-                   "title":"Itamar",
-                   "items" : [
-                              {
-                              "song_name" : "Hopa Hey",
-                              "song_length" : "13:22"
-                              },
-                              {
-                              "song_name" : "Chiribim Chiribom",
-                              "song_length" : "21:55"
-                              }
-                              ]
+                   "name": "artist",
+                   "title": "Iron & Wine",
+                   "items": [
+                             {
+                             "song_name": "Cinder and Smoke",
+                             "song_length": "05:45",
+                             "song_url": "https://www.youtube.com/watch?v=oSarZ7g1F-g"
+                             },
+                             {
+                             "song_name": "Each coming night",
+                             "song_length": "03:27",
+                             "song_url": "https://www.youtube.com/watch?v=cNXisvrK1_o"
+                             }
+                             ]
                    },
                    {
                    "name": "native_ads_adunit",
@@ -237,18 +255,36 @@
                    "link_op": "/6870/ynet_mobile/ynet_mobileweb_android_inbox7"
                    },
                    {
-                   "name": "person",
-                   "title":"James",
-                   "items" : [
-                              {
-                              "song_name" : "Hopa Hey",
-                              "song_length" : "13:22"
-                              },
-                              {
-                              "song_name" : "Chiribim Chiribom",
-                              "song_length" : "21:55"
-                              }
-                              ]
+                   "name": "artist",
+                   "title": "Judy Collins",
+                   "items": [
+                             {
+                             "song_name": "Amazing Grace",
+                             "song_length": "04:05",
+                             "song_url": "https://www.youtube.com/watch?v=AtteRD5bBNQ"
+                             },
+                             {
+                             "song_name": "Farewell to Tarwathie",
+                             "song_length": "04:05",
+                             "song_url": "https://www.youtube.com/watch?v=cRa-SLdoTqI"
+                             }
+                             ]
+                   },
+                   {
+                   "name": "artist",
+                   "title": "José González",
+                   "items": [
+                             {
+                             "song_name": "Stay Alive",
+                             "song_length": "04:12",
+                             "song_url": "https://www.youtube.com/watch?v=NucJk8TxyRg"
+                             },
+                             {
+                             "song_name": "Line of Fire",
+                             "song_length": "03:25",
+                             "song_url": "https://www.youtube.com/watch?v=2q8b8j2PJJ4"
+                             }
+                             ]
                    }
                    ]
 }

@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "537883400.063325"
+            timestampString = "539541740.002318"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "89"
@@ -150,7 +150,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "537883400.063485"
+            timestampString = "539541740.00253"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "78"
@@ -182,7 +182,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "537883400.063862"
+            timestampString = "539541740.00263"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "51"
@@ -198,7 +198,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "537883400.063907"
+            timestampString = "539541740.002671"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "122"
@@ -214,7 +214,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "537883400.0639499"
+            timestampString = "539541740.002709"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "118"
@@ -230,7 +230,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "537883400.063992"
+            timestampString = "539541740.002746"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "114"
@@ -246,7 +246,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "537883400.064032"
+            timestampString = "539541740.0027829"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "108"
@@ -262,7 +262,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Ads/InterstitialProvider.swift"
-            timestampString = "537883400.064073"
+            timestampString = "539541740.00282"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "97"
@@ -278,7 +278,7 @@
                   moduleName = "AdUnitDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/user/Gini/ynet/Public%20Example%20Projects/AdUnitDemo-iOS/AdUnitDemo/AdUnitDemo/Ads/InterstitialProvider.swift"
-                  timestampString = "538245079.678985"
+                  timestampString = "539540942.014104"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "100"
@@ -293,7 +293,7 @@
                   moduleName = "AdUnitDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/user/Gini/ynet/Public%20Example%20Projects/AdUnitDemo-iOS/AdUnitDemo/AdUnitDemo/Ads/InterstitialProvider.swift"
-                  timestampString = "538245079.680789"
+                  timestampString = "539540942.016131"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "100"
@@ -374,7 +374,7 @@
                   moduleName = "AdUnitDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/user/Gini/ynet/Public%20Example%20Projects/AdUnitDemo-iOS/AdUnitDemo/AdUnitDemo/ViewControllers/Base/AdsBaseViewController.swift"
-                  timestampString = "538245079.68996"
+                  timestampString = "539540942.025821"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "39"
@@ -389,7 +389,7 @@
                   moduleName = "AdUnitDemo"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/user/Gini/ynet/Public%20Example%20Projects/AdUnitDemo-iOS/AdUnitDemo/AdUnitDemo/ViewControllers/Base/AdsBaseViewController.swift"
-                  timestampString = "538245079.691762"
+                  timestampString = "539540942.027572"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "39"
@@ -406,7 +406,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Model/ComponentsGenerator.swift"
-            timestampString = "538245117.7251"
+            timestampString = "539541740.003065"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
@@ -422,7 +422,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/Model/ComponentsGenerator.swift"
-            timestampString = "538245117.725477"
+            timestampString = "539541740.003111"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "29"
@@ -434,11 +434,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AdUnitDemo/ViewControllers/Second VC/AdsTableViewController.swift"
-            timestampString = "538245117.725686"
+            timestampString = "539541062.47913"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "38"
@@ -482,16 +482,112 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdUnitDemo/ViewControllers/Second VC/AdsDataController.swift"
+            timestampString = "539541740.00331"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "createComponentsArray(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdUnitDemo/ViewControllers/Second VC/AdsDataController.swift"
+            timestampString = "539541740.0033621"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "header(for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdUnitDemo/Model Generators/HeaderSectionFactory.swift"
+            timestampString = "540032350.2379479"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "heightForHeader(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdUnitDemo/Model Generators/HeaderSectionFactory.swift"
+            timestampString = "540032350.240811"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "heightForHeader(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AdUnitDemo/Model Generators/TableCellFactory.swift"
-            timestampString = "538245117.725832"
+            filePath = "AdUnitDemo/Model Generators/HeaderSectionFactory.swift"
+            timestampString = "540032350.241055"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "registerReuseIdentifiers(for:)"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "header(for:object:withSectionType:andWidth:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdUnitDemo/Model Generators/HeaderSectionFactory.swift"
+            timestampString = "540032350.241302"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "header(for:object:withSectionType:andWidth:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdUnitDemo/Model Generators/GeneralSectionHeaderGenerator.swift"
+            timestampString = "539541740.004349"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "generateHeader(for:with:andWidth:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

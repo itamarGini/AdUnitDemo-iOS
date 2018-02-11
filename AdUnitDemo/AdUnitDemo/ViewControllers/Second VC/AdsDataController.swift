@@ -38,14 +38,16 @@ class AdsDataController: NSObject
                                             
                         switch item.componentType
                         {
-                        case .person :
-                            print("person - \(item.name)")
+                        case .artist :
+                            print("artist - \(item.name)")
                             
                         case .bannerAppAdunit :
                             print("BannerAppAdunit - \(item.name)")
                             
                         case .nativeAdsAdunit:
                             print("NativeAdsAdunit - \(item.name)")
+                            
+                        default : print("None - \(item.name)")
                         }
                     })
                     delegate?.dataControllerDidFinishUpdateData(self, with: nil)
@@ -66,7 +68,6 @@ class AdsDataController: NSObject
         {
             guard let object = ComponentsGenerator.generateComponent(from: component) else { continue }
             componentsArray.append(object)
-            
         }
         return componentsArray
     }
@@ -74,6 +75,16 @@ class AdsDataController: NSObject
 
 extension AdsDataController : DataController
 {
+    func header(for section: Int) -> HeaderMetaData?
+    {
+        return section < items.count ? items[section].headerMetaData : nil
+    }
+    
+    func type(of section: Int) -> Ads.ComponentsType
+    {
+        return section < items.count ? items[section].componentType : .none
+    }
+    
     func numberOfSections() -> Int
     {
         return items.count

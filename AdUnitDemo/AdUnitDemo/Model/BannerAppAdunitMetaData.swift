@@ -18,7 +18,7 @@ struct BannerAppAdunitMetaData: AdComponentMetaData
     let imageHeight   : Int
     let items         : [CategoryItemMetaData]?
     let headerMetaData: HeaderMetaData?    = nil
-    let componentType : Ads.ComponentsType = .bannerAppAdunit
+    let componentType : Ads.ComponentsType
 }
 
 extension BannerAppAdunitMetaData: MultiItemMetaDataComponent
@@ -40,16 +40,32 @@ extension BannerAppAdunitMetaData: MultiItemMetaDataComponent
         let image             = dictionary[generatorKeys.image.rawValue]       as? String ?? ""
         let imageWidth        = dictionary[generatorKeys.imageWidth.rawValue]  as? Int    ?? 0
         let imageHeight       = dictionary[generatorKeys.imageHeight.rawValue] as? Int    ?? 0
-        
-        let item = MultiItemMetaData(title: "BannerAppComponent",
-                                     subTitle: "",
-                                     componentType: .bannerAppAdunit)
+        let items             = generateItemsDataArray(from: dictionary, and: Ads.ComponentsType.bannerAppAdunit)
+        let type              = configureType(for: name)
         
         return BannerAppAdunitMetaData(name: name,
                                           link: link,
                                           image: image,
                                           imageWidth: imageWidth,
                                           imageHeight: imageHeight,
-                                          items: [item])
+                                          items: items,
+                                          componentType: type)
+    }
+}
+
+private extension BannerAppAdunitMetaData
+{
+    static func configureType(for name : String) -> Ads.ComponentsType
+    {
+        var retType : Ads.ComponentsType
+        
+        switch name
+        {
+        case Ads.ComponentsType.bannerAppAdunit.rawValue : retType = .bannerAppAdunit
+        case Ads.ComponentsType.nativeAdsAdunit.rawValue : retType = .nativeAdsAdunit
+        default                                          : retType = .none
+        }
+        
+        return retType
     }
 }

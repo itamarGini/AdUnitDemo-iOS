@@ -1,5 +1,5 @@
 //
-//  PersonCell.swift
+//  ArtistCell.swift
 //  AdUnitDemo
 //
 //  Created by Itamar Nakar on 21/01/2018.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PersonCell: UITableViewCell {
+class ArtistCell: UITableViewCell {
     
     //MARK: - Oulets
     
@@ -26,5 +26,5 @@ class PersonCell: UITableViewCell {
     }
 }
 
-extension PersonCell: CellInfoable {}
+extension ArtistCell: CellInfoable {}
 

@@ -15,4 +15,7 @@ protocol DataController
     func numberOfRows(inSection section: Int) -> Int
     func object(for indexPath: IndexPath) -> Any?
     func didSelectObject(inIndexPath indexPath: IndexPath)
+    
+    func header(for section: Int) -> HeaderMetaData?
+    func type(of section: Int)    -> Ads.ComponentsType
 }

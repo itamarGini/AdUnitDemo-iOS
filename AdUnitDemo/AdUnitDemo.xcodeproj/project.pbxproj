@@ -17,7 +17,7 @@
 		CE1C67E8200F8417000D8C21 /* AdsTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C67E7200F8417000D8C21 /* AdsTableController.swift */; };
 		CE1C67EA200F8436000D8C21 /* AdsDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C67E9200F8436000D8C21 /* AdsDataController.swift */; };
 		CE1C67ED200F8AC1000D8C21 /* AdsJsonFile.json in Resources */ = {isa = PBXBuildFile; fileRef = CE1C67EC200F8AC1000D8C21 /* AdsJsonFile.json */; };
-		CE1C67EF200F9FFC000D8C21 /* PersonMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C67EE200F9FFC000D8C21 /* PersonMetaData.swift */; };
+		CE1C67EF200F9FFC000D8C21 /* ArtistMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C67EE200F9FFC000D8C21 /* ArtistMetaData.swift */; };
 		CE1C67F2200FA036000D8C21 /* NativeAdsAdunitMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C67F1200FA036000D8C21 /* NativeAdsAdunitMetaData.swift */; };
 		CE1C67F4200FA055000D8C21 /* BannerAppAdunitMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C67F3200FA055000D8C21 /* BannerAppAdunitMetaData.swift */; };
 		CE1C67F620109F44000D8C21 /* ComponentsMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C67F520109F44000D8C21 /* ComponentsMetaData.swift */; };
@@ -28,6 +28,12 @@
 		CE1C68002010A92C000D8C21 /* MultiItemMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C67FF2010A92C000D8C21 /* MultiItemMetaData.swift */; };
 		CE1C68022010B8C2000D8C21 /* ComponentsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C68012010B8C2000D8C21 /* ComponentsGenerator.swift */; };
 		CE1C68042010BA71000D8C21 /* AdComponentMetaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C68032010BA71000D8C21 /* AdComponentMetaData.swift */; };
+		CE5C194520288E650080CBF0 /* HeaderSectionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C194420288E650080CBF0 /* HeaderSectionFactory.swift */; };
+		CE5C19472028919D0080CBF0 /* HeaderGeneratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C19462028919D0080CBF0 /* HeaderGeneratorProtocol.swift */; };
+		CE5C1949202891D20080CBF0 /* GeneralSectionHeaderGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C1948202891D20080CBF0 /* GeneralSectionHeaderGenerator.swift */; };
+		CE5C194C202892A30080CBF0 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C194B202892A30080CBF0 /* SectionHeaderView.swift */; };
+		CE5C194E202893140080CBF0 /* SectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5C194D202893140080CBF0 /* SectionHeaderView.xib */; };
+		CE5C19502028A93D0080CBF0 /* HeaderFooterViewInfoable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5C194F2028A93D0080CBF0 /* HeaderFooterViewInfoable.swift */; };
 		CE7BE42F1F8287B800055E02 /* AdUnitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7BE42E1F8287B800055E02 /* AdUnitManager.swift */; };
 		CE7BE4311F829FC800055E02 /* GoogleTagManagerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7BE4301F829FC800055E02 /* GoogleTagManagerHelper.swift */; };
 		CE8326BB1F7A724F00EFE98C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8326BA1F7A724F00EFE98C /* AppDelegate.swift */; };
@@ -37,12 +43,14 @@
 		CE8326C51F7A724F00EFE98C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8326C31F7A724F00EFE98C /* LaunchScreen.storyboard */; };
 		CE881FAE2014944A00EB2EA4 /* TableCellGeneratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE881FAD2014944A00EB2EA4 /* TableCellGeneratorProtocol.swift */; };
 		CE881FB0201495CB00EB2EA4 /* TableCellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE881FAF201495CB00EB2EA4 /* TableCellFactory.swift */; };
-		CE881FB32014994F00EB2EA4 /* PersonCellGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE881FB22014994F00EB2EA4 /* PersonCellGenerator.swift */; };
-		CE881FBA2014A45400EB2EA4 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE881FB82014A45400EB2EA4 /* PersonCell.swift */; };
-		CE881FBB2014A45400EB2EA4 /* PersonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE881FB92014A45400EB2EA4 /* PersonCell.xib */; };
+		CE881FB32014994F00EB2EA4 /* ArtistCellGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE881FB22014994F00EB2EA4 /* ArtistCellGenerator.swift */; };
+		CE881FBA2014A45400EB2EA4 /* ArtistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE881FB82014A45400EB2EA4 /* ArtistCell.swift */; };
+		CE881FBB2014A45400EB2EA4 /* ArtistCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE881FB92014A45400EB2EA4 /* ArtistCell.xib */; };
 		CE881FBE2014A90000EB2EA4 /* CellInfoable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE881FBD2014A90000EB2EA4 /* CellInfoable.swift */; };
 		CE881FC02014F76500EB2EA4 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE881FBF2014F76500EB2EA4 /* TableController.swift */; };
 		CE8DA16D1FAB397700BCF938 /* AdCustomParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8DA16C1FAB397700BCF938 /* AdCustomParams.swift */; };
+		CEA9208820176AF00031D9B2 /* BannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA9208620176AF00031D9B2 /* BannerCell.swift */; };
+		CEA9208920176AF00031D9B2 /* BannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA9208720176AF00031D9B2 /* BannerCell.xib */; };
 		CEB06C6C1FF23B3500229736 /* AdSplashView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB06C6B1FF23B3500229736 /* AdSplashView.xib */; };
 		CEB06C6F1FF23BA500229736 /* AdSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB06C6E1FF23BA500229736 /* AdSplashView.swift */; };
 		CEB06C711FF2412500229736 /* ExtentionWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB06C701FF2412500229736 /* ExtentionWindow.swift */; };
@@ -75,7 +83,7 @@
 		CE1C67E7200F8417000D8C21 /* AdsTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsTableController.swift; sourceTree = "<group>"; };
 		CE1C67E9200F8436000D8C21 /* AdsDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsDataController.swift; sourceTree = "<group>"; };
 		CE1C67EC200F8AC1000D8C21 /* AdsJsonFile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AdsJsonFile.json; sourceTree = "<group>"; };
-		CE1C67EE200F9FFC000D8C21 /* PersonMetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMetaData.swift; sourceTree = "<group>"; };
+		CE1C67EE200F9FFC000D8C21 /* ArtistMetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistMetaData.swift; sourceTree = "<group>"; };
 		CE1C67F1200FA036000D8C21 /* NativeAdsAdunitMetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdsAdunitMetaData.swift; sourceTree = "<group>"; };
 		CE1C67F3200FA055000D8C21 /* BannerAppAdunitMetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAppAdunitMetaData.swift; sourceTree = "<group>"; };
 		CE1C67F520109F44000D8C21 /* ComponentsMetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsMetaData.swift; sourceTree = "<group>"; };
@@ -86,6 +94,12 @@
 		CE1C67FF2010A92C000D8C21 /* MultiItemMetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiItemMetaData.swift; sourceTree = "<group>"; };
 		CE1C68012010B8C2000D8C21 /* ComponentsGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsGenerator.swift; sourceTree = "<group>"; };
 		CE1C68032010BA71000D8C21 /* AdComponentMetaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdComponentMetaData.swift; sourceTree = "<group>"; };
+		CE5C194420288E650080CBF0 /* HeaderSectionFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSectionFactory.swift; sourceTree = "<group>"; };
+		CE5C19462028919D0080CBF0 /* HeaderGeneratorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderGeneratorProtocol.swift; sourceTree = "<group>"; };
+		CE5C1948202891D20080CBF0 /* GeneralSectionHeaderGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSectionHeaderGenerator.swift; sourceTree = "<group>"; };
+		CE5C194B202892A30080CBF0 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
+		CE5C194D202893140080CBF0 /* SectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionHeaderView.xib; sourceTree = "<group>"; };
+		CE5C194F2028A93D0080CBF0 /* HeaderFooterViewInfoable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderFooterViewInfoable.swift; sourceTree = "<group>"; };
 		CE7BE42E1F8287B800055E02 /* AdUnitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdUnitManager.swift; sourceTree = "<group>"; };
 		CE7BE4301F829FC800055E02 /* GoogleTagManagerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleTagManagerHelper.swift; sourceTree = "<group>"; };
 		CE7BE4331F82A50900055E02 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
@@ -98,12 +112,14 @@
 		CE8326C61F7A724F00EFE98C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE881FAD2014944A00EB2EA4 /* TableCellGeneratorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellGeneratorProtocol.swift; sourceTree = "<group>"; };
 		CE881FAF201495CB00EB2EA4 /* TableCellFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellFactory.swift; sourceTree = "<group>"; };
-		CE881FB22014994F00EB2EA4 /* PersonCellGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCellGenerator.swift; sourceTree = "<group>"; };
-		CE881FB82014A45400EB2EA4 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
-		CE881FB92014A45400EB2EA4 /* PersonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonCell.xib; sourceTree = "<group>"; };
+		CE881FB22014994F00EB2EA4 /* ArtistCellGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistCellGenerator.swift; sourceTree = "<group>"; };
+		CE881FB82014A45400EB2EA4 /* ArtistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistCell.swift; sourceTree = "<group>"; };
+		CE881FB92014A45400EB2EA4 /* ArtistCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArtistCell.xib; sourceTree = "<group>"; };
 		CE881FBD2014A90000EB2EA4 /* CellInfoable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellInfoable.swift; sourceTree = "<group>"; };
 		CE881FBF2014F76500EB2EA4 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
 		CE8DA16C1FAB397700BCF938 /* AdCustomParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdCustomParams.swift; sourceTree = "<group>"; };
+		CEA9208620176AF00031D9B2 /* BannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCell.swift; sourceTree = "<group>"; };
+		CEA9208720176AF00031D9B2 /* BannerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCell.xib; sourceTree = "<group>"; };
 		CEB06C6B1FF23B3500229736 /* AdSplashView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdSplashView.xib; sourceTree = "<group>"; };
 		CEB06C6E1FF23BA500229736 /* AdSplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdSplashView.swift; sourceTree = "<group>"; };
 		CEB06C701FF2412500229736 /* ExtentionWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtentionWindow.swift; sourceTree = "<group>"; };
@@ -171,7 +187,7 @@
 		CE1C67F0200FA002000D8C21 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CE1C67EE200F9FFC000D8C21 /* PersonMetaData.swift */,
+				CE1C67EE200F9FFC000D8C21 /* ArtistMetaData.swift */,
 				CE1C67F1200FA036000D8C21 /* NativeAdsAdunitMetaData.swift */,
 				CE1C67F3200FA055000D8C21 /* BannerAppAdunitMetaData.swift */,
 				CE1C67F520109F44000D8C21 /* ComponentsMetaData.swift */,
@@ -180,6 +196,15 @@
 				CE1C68012010B8C2000D8C21 /* ComponentsGenerator.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CE5C194A2028923F0080CBF0 /* SectionHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C194B202892A30080CBF0 /* SectionHeaderView.swift */,
+				CE5C194D202893140080CBF0 /* SectionHeaderView.xib */,
+			);
+			path = SectionHeaderView;
 			sourceTree = "<group>";
 		};
 		CE8326AE1F7A724F00EFE98C = {
@@ -228,7 +253,9 @@
 			isa = PBXGroup;
 			children = (
 				CE881FAF201495CB00EB2EA4 /* TableCellFactory.swift */,
-				CE881FB22014994F00EB2EA4 /* PersonCellGenerator.swift */,
+				CE881FB22014994F00EB2EA4 /* ArtistCellGenerator.swift */,
+				CE5C194420288E650080CBF0 /* HeaderSectionFactory.swift */,
+				CE5C1948202891D20080CBF0 /* GeneralSectionHeaderGenerator.swift */,
 			);
 			path = "Model Generators";
 			sourceTree = "<group>";
@@ -236,17 +263,44 @@
 		CE881FBC2014A46300EB2EA4 /* TableView Cells */ = {
 			isa = PBXGroup;
 			children = (
-				CE881FB82014A45400EB2EA4 /* PersonCell.swift */,
-				CE881FB92014A45400EB2EA4 /* PersonCell.xib */,
+				CEA92084201737C30031D9B2 /* ArtistCell */,
+				CEA9208A20176AF90031D9B2 /* BannerCell */,
 			);
 			path = "TableView Cells";
+			sourceTree = "<group>";
+		};
+		CEA92084201737C30031D9B2 /* ArtistCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE881FB82014A45400EB2EA4 /* ArtistCell.swift */,
+				CE881FB92014A45400EB2EA4 /* ArtistCell.xib */,
+			);
+			path = ArtistCell;
+			sourceTree = "<group>";
+		};
+		CEA92085201737F40031D9B2 /* Splash View */ = {
+			isa = PBXGroup;
+			children = (
+				CEB06C6B1FF23B3500229736 /* AdSplashView.xib */,
+				CEB06C6E1FF23BA500229736 /* AdSplashView.swift */,
+			);
+			path = "Splash View";
+			sourceTree = "<group>";
+		};
+		CEA9208A20176AF90031D9B2 /* BannerCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEA9208620176AF00031D9B2 /* BannerCell.swift */,
+				CEA9208720176AF00031D9B2 /* BannerCell.xib */,
+			);
+			path = BannerCell;
 			sourceTree = "<group>";
 		};
 		CEB06C6D1FF23B7B00229736 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				CEB06C6B1FF23B3500229736 /* AdSplashView.xib */,
-				CEB06C6E1FF23BA500229736 /* AdSplashView.swift */,
+				CE5C194A2028923F0080CBF0 /* SectionHeaderView */,
+				CEA92085201737F40031D9B2 /* Splash View */,
 				CEB2C5541FE86845008F86F1 /* BannerView.swift */,
 				CE881FBC2014A46300EB2EA4 /* TableView Cells */,
 			);
@@ -256,6 +310,7 @@
 		CEB06C761FF2E62B00229736 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				CE5C194F2028A93D0080CBF0 /* HeaderFooterViewInfoable.swift */,
 				CEB06C741FF2E60F00229736 /* NibDesignable.swift */,
 				CE1C67E1200F8008000D8C21 /* DataController.swift */,
 				CE1C67E3200F8052000D8C21 /* DataControllerProtocol.swift */,
@@ -266,6 +321,7 @@
 				CE881FAD2014944A00EB2EA4 /* TableCellGeneratorProtocol.swift */,
 				CE881FBD2014A90000EB2EA4 /* CellInfoable.swift */,
 				CE881FBF2014F76500EB2EA4 /* TableController.swift */,
+				CE5C19462028919D0080CBF0 /* HeaderGeneratorProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -414,9 +470,11 @@
 			files = (
 				CEB06C6C1FF23B3500229736 /* AdSplashView.xib in Resources */,
 				CE8326C51F7A724F00EFE98C /* LaunchScreen.storyboard in Resources */,
-				CE881FBB2014A45400EB2EA4 /* PersonCell.xib in Resources */,
+				CE881FBB2014A45400EB2EA4 /* ArtistCell.xib in Resources */,
 				CE1C67ED200F8AC1000D8C21 /* AdsJsonFile.json in Resources */,
+				CE5C194E202893140080CBF0 /* SectionHeaderView.xib in Resources */,
 				CE8326C21F7A724F00EFE98C /* Assets.xcassets in Resources */,
+				CEA9208920176AF00031D9B2 /* BannerCell.xib in Resources */,
 				CEDFB8E61F7B9AF800BB84F9 /* GoogleService-Info.plist in Resources */,
 				CE8326C01F7A724F00EFE98C /* Main.storyboard in Resources */,
 			);
@@ -488,16 +546,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5C19502028A93D0080CBF0 /* HeaderFooterViewInfoable.swift in Sources */,
 				4E698F7D1F8A867D0035822A /* UserInSession.swift in Sources */,
 				CE1C67FA2010A312000D8C21 /* CategoryItemMetaData.swift in Sources */,
 				CEB06C751FF2E60F00229736 /* NibDesignable.swift in Sources */,
 				CE1C67FC2010A3BF000D8C21 /* Component.swift in Sources */,
 				CEB2C5581FE86860008F86F1 /* BannerAdProvider.swift in Sources */,
 				CEB2C5531FE807B5008F86F1 /* WelcomeViewController.swift in Sources */,
-				CE881FBA2014A45400EB2EA4 /* PersonCell.swift in Sources */,
+				CE881FBA2014A45400EB2EA4 /* ArtistCell.swift in Sources */,
 				CEB2C5591FE86860008F86F1 /* InterstitialProvider.swift in Sources */,
 				CEB06C7E1FF39DBE00229736 /* AdProviderProtocol.swift in Sources */,
+				CE5C1949202891D20080CBF0 /* GeneralSectionHeaderGenerator.swift in Sources */,
 				CEB2C55B1FE868E1008F86F1 /* AdsBaseViewController.swift in Sources */,
+				CE5C19472028919D0080CBF0 /* HeaderGeneratorProtocol.swift in Sources */,
 				CE1C67FE2010A55D000D8C21 /* HeaderMetaData.swift in Sources */,
 				CE1C67E8200F8417000D8C21 /* AdsTableController.swift in Sources */,
 				CE1C67F4200FA055000D8C21 /* BannerAppAdunitMetaData.swift in Sources */,
@@ -511,15 +572,16 @@
 				CE1C68022010B8C2000D8C21 /* ComponentsGenerator.swift in Sources */,
 				CE1C67EA200F8436000D8C21 /* AdsDataController.swift in Sources */,
 				CE8326BD1F7A724F00EFE98C /* AdUnitViewController.swift in Sources */,
-				CE881FB32014994F00EB2EA4 /* PersonCellGenerator.swift in Sources */,
+				CE881FB32014994F00EB2EA4 /* ArtistCellGenerator.swift in Sources */,
 				CE881FC02014F76500EB2EA4 /* TableController.swift in Sources */,
 				CEB06C7C1FF3863C00229736 /* AdsDefines.swift in Sources */,
+				CEA9208820176AF00031D9B2 /* BannerCell.swift in Sources */,
 				CE1C67F82010A195000D8C21 /* MultiItemMetaDataComponent.swift in Sources */,
 				CE1C67DD200F7195000D8C21 /* ExtentionUIView.swift in Sources */,
 				CE881FBE2014A90000EB2EA4 /* CellInfoable.swift in Sources */,
 				CE1C67DB200E3AB0000D8C21 /* AdsTableViewController.swift in Sources */,
 				CE1C67F620109F44000D8C21 /* ComponentsMetaData.swift in Sources */,
-				CE1C67EF200F9FFC000D8C21 /* PersonMetaData.swift in Sources */,
+				CE1C67EF200F9FFC000D8C21 /* ArtistMetaData.swift in Sources */,
 				CEB2C5551FE86845008F86F1 /* BannerView.swift in Sources */,
 				CEB06C731FF2469800229736 /* ExtentionUIApplication.swift in Sources */,
 				CEBA0BFD1FEA724000F6B3FC /* AdCounter.swift in Sources */,
@@ -531,7 +593,9 @@
 				CE1C67E6200F80BF000D8C21 /* SegueType.swift in Sources */,
 				CE1C68002010A92C000D8C21 /* MultiItemMetaData.swift in Sources */,
 				CE8326BB1F7A724F00EFE98C /* AppDelegate.swift in Sources */,
+				CE5C194C202892A30080CBF0 /* SectionHeaderView.swift in Sources */,
 				CED3B37E1FEB99B900C9E285 /* AdsConfiguration.swift in Sources */,
+				CE5C194520288E650080CBF0 /* HeaderSectionFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

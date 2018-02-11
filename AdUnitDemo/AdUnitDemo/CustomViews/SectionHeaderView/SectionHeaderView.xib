@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="30" id="eZg-EZ-V1n" customClass="SectionHeaderView" customModule="Ynet" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eZg-EZ-V1n" id="Z90-ce-pj5">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="29.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEW-3c-V35">
+                        <rect key="frame" x="5" y="0.0" width="10" height="29.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="10" id="9aD-ya-3Yd"/>
+                        </constraints>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="erwy wery wery wer " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.10000000149011612" translatesAutoresizingMaskIntoConstraints="NO" id="jJ0-XA-QYJ" userLabel="erwy wery wery wer">
+                        <rect key="frame" x="20" y="0.0" width="350" height="29.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.031372549020000001" green="0.1200413108" blue="0.33344110850000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstItem="hEW-3c-V35" firstAttribute="leading" secondItem="Z90-ce-pj5" secondAttribute="leading" constant="5" id="0c6-hc-PiP"/>
+                    <constraint firstAttribute="bottom" secondItem="hEW-3c-V35" secondAttribute="bottom" id="3vt-ZS-R3Q"/>
+                    <constraint firstItem="hEW-3c-V35" firstAttribute="top" secondItem="Z90-ce-pj5" secondAttribute="top" id="KxN-4N-Lua"/>
+                    <constraint firstItem="jJ0-XA-QYJ" firstAttribute="leading" secondItem="hEW-3c-V35" secondAttribute="trailing" constant="5" id="L8B-LC-rUZ"/>
+                    <constraint firstAttribute="bottom" secondItem="jJ0-XA-QYJ" secondAttribute="bottom" id="XDX-5k-o6d"/>
+                    <constraint firstAttribute="trailing" secondItem="jJ0-XA-QYJ" secondAttribute="trailing" constant="5" id="ZBh-pH-WeU"/>
+                    <constraint firstItem="jJ0-XA-QYJ" firstAttribute="top" secondItem="Z90-ce-pj5" secondAttribute="top" id="oil-xe-7SO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="titleLabel" destination="jJ0-XA-QYJ" id="ydQ-YT-K8k"/>
+            </connections>
+            <point key="canvasLocation" x="-619.5" y="-277"/>
+        </tableViewCell>
+    </objects>
+</document>

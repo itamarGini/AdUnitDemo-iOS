@@ -32,6 +32,7 @@ extension AdsTableController: TableController
     func registerReuseIdentifiers(forTableView tableView: UITableView)
     {
         TableCellFactory.registerReuseIdentifiers(for: tableView)
+        HeaderSectionFactory.registerHeaderFooterViewReuseIdentifier(for: tableView)
     }
 }
 
@@ -60,9 +61,15 @@ extension AdsTableController: UITableViewDelegate
 {
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat
     {
-//        let headerMetaData = dataController.header(for: section)
-//        return HeaderSectionFactory.heightForHeader(with: headerMetaData)
-        return 30
+        let headerMetaData = dataController.header(for: section)
+        return HeaderSectionFactory.heightForHeader(with: headerMetaData)
+    }
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView?
+    {
+        let sectionType          = dataController.type(of: section)
+        let headerMetaData       = dataController.header(for: section)
+        return HeaderSectionFactory.header(for:tableView, object: headerMetaData, withSectionType: sectionType, andWidth: tableView.frame.width)
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat

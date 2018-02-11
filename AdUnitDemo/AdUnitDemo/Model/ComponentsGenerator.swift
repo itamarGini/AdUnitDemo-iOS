@@ -19,9 +19,9 @@ class ComponentsGenerator
         
         switch componentName
         {
-        case Ads.ComponentsType.person.rawValue          : object = PersonMetaData.self
-        case Ads.ComponentsType.bannerAppAdunit.rawValue    : object = BannerAppAdunitMetaData.self
-        case Ads.ComponentsType.nativeAdsAdunit.rawValue    : object = NativeAdsAdunitMetaData.self
+        case Ads.ComponentsType.artist.rawValue          : object = ArtistMetaData.self
+        case Ads.ComponentsType.bannerAppAdunit.rawValue,
+             Ads.ComponentsType.nativeAdsAdunit.rawValue : object = BannerAppAdunitMetaData.self
 
         default: break
         }

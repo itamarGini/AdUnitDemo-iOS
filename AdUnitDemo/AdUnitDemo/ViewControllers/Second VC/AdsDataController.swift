@@ -7,14 +7,21 @@
 //
 
 import UIKit
+import GoogleMobileAds
 
 class AdsDataController: NSObject
 {
-    typealias fetchDictionary = Dictionary<String, AnyObject>
+    typealias fetchDictionary      = Dictionary<String, AnyObject>
+    typealias bannerBoolDictionary = Dictionary<GADBannerView, Bool>
     
     //MARK: - Private members
     private weak var delegate : DataControllerDelegate?
     private var items = [Component]()
+    
+    // Ads manegement Properties
+    var asdToLoad       = [BannerAppAdunitMetaData]()
+    var loadStateForAds = bannerBoolDictionary()    
+    
     
     //  MARK: - Initializers
     init(withDelegate delegate: DataControllerDelegate?)
@@ -67,9 +74,31 @@ class AdsDataController: NSObject
         for component  in array
         {
             guard let object = ComponentsGenerator.generateComponent(from: component) else { continue }
+            if let object = object as? BannerAppAdunitMetaData
+            {
+                asdToLoad.append(object)
+            }
             componentsArray.append(object)
         }
         return componentsArray
+    }
+    
+    private func createNativeStyleAd(by object : BannerAppAdunitMetaData)
+    {
+        let customParam = AdCustomParams(dcPath: "8.Central-1.Home", descriptionUrl: "")
+        let adView = BannerAdProvider.init(with: object.link,
+                                           type: Ads.AdsType.nativeAd,
+                                           customParams: customParam,
+                                           rootViewController: delegate as! UIViewController,
+                                           andDelegate: delegate as! BannerAdProviderProtocol)
+        
+//        let adSize = GADAdSizeFromCGSize(CGSize(width: object.imageWidth, height: object.imageHeight))
+//        let adView = DFPBannerView.init(adSize: adSize)
+//        adView.validAdSizes = [NSValueFromGADAdSize(adSize), NSValueFromGADAdSize(kGADAdSizeFluid)]
+//        adView.adUnitID = object.link
+//        adView.rootViewController? = delegate as! UIViewController
+//        adView.delegate = delegate as!
+//        adView.adSizeDelegate? = delegate as! UIViewController
     }
 }
 

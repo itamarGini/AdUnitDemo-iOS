@@ -9,7 +9,10 @@
 import UIKit
 import GoogleMobileAds
 
-class AdsBaseViewController: UIViewController {
+class AdsBaseViewController: UIViewController
+{
+    // typealias
+    typealias bannerBoolDictionary = Dictionary<GADBannerView, Bool>
     
     var adSlpashView         : AdSplashView!
     var adProvider           : BannerAdProvider?
@@ -18,6 +21,10 @@ class AdsBaseViewController: UIViewController {
                                                          y: 0,
                                                          width: UIScreen.main.bounds.width,
                                                          height: 50))
+    
+    // Table Ads manegement Properties
+    var asdToLoad       = [DFPBannerView]()
+    var loadStateForAds = [GADBannerView : Bool]()
     
     override func viewDidLoad() {
         super.viewDidLoad()

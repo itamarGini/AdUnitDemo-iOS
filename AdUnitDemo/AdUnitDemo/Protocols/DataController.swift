@@ -16,6 +16,8 @@ protocol DataController
     func object(for indexPath: IndexPath) -> Any?
     func didSelectObject(inIndexPath indexPath: IndexPath)
     
+//    func preloadNextAd()
+    
     func header(for section: Int) -> HeaderMetaData?
     func type(of section: Int)    -> Ads.ComponentsType
 }

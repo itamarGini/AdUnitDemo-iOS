@@ -27,6 +27,16 @@ class AdsTableViewController: AdsBaseViewController {
         tableView.dataSource                   = tableController
         tableView.delegate                     = tableController
     }
+    
+    func preloadNextAd()
+    {
+//        tableController.dataController.
+    }
+}
+
+private extension AdsTableViewController
+{
+    
 }
 
 extension AdsTableViewController : DataControllerDelegate
@@ -35,6 +45,7 @@ extension AdsTableViewController : DataControllerDelegate
     
     func dataControllerDidFinishUpdateData(_ dataController: DataController,with error: Error?)
     {
+        
         tableView.reloadData()
     }
 

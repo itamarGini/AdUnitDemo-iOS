@@ -13,7 +13,8 @@ internal struct ArtistCellGenerator : TableCellGeneratorProtocol {
     // MARK: - Protocol methods
     static func cell(for indexPath: IndexPath, inTableVIew tableView: UITableView) -> UITableViewCell
     {
-        return tableView.dequeueReusableCell(withIdentifier: ArtistCell.cellID, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: ArtistCell.cellID, for: indexPath)
+        return cell
     }
     
     static func registerReuseIdentifier(for tableView: UITableView)

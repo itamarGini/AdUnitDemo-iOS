@@ -40,16 +40,17 @@ extension BannerAppAdunitMetaData: MultiItemMetaDataComponent
         let image             = dictionary[generatorKeys.image.rawValue]       as? String ?? ""
         let imageWidth        = dictionary[generatorKeys.imageWidth.rawValue]  as? Int    ?? 0
         let imageHeight       = dictionary[generatorKeys.imageHeight.rawValue] as? Int    ?? 0
-        let items             = generateItemsDataArray(from: dictionary, and: Ads.ComponentsType.bannerAppAdunit)
         let type              = configureType(for: name)
+        let item              = MultiItemMetaData(title: "", subTitle: "", songURL: "", componentType: type) //generateItemsDataArray(from: dictionary, and: Ads.ComponentsType.bannerAppAdunit)
         
-        return BannerAppAdunitMetaData(name: name,
+        let metadata = BannerAppAdunitMetaData(name: name,
                                           link: link,
                                           image: image,
                                           imageWidth: imageWidth,
                                           imageHeight: imageHeight,
-                                          items: items,
+                                          items: [item],
                                           componentType: type)
+        return metadata
     }
 }
 

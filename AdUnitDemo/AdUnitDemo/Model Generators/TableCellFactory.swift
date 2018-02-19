@@ -16,9 +16,11 @@ struct TableCellFactory
         
         if let object = object as? CategoryItemMetaData
         {
+//            print(object)
             switch object.componentType
             {
-            case .artist             : generator = ArtistCellGenerator.self
+            case .artist            : generator = ArtistCellGenerator.self
+            case .bannerAppAdunit   : generator = AdCellGenerator.self
             default                 : break
             }
         }
@@ -52,6 +54,7 @@ struct TableCellFactory
     static func registerReuseIdentifiers(for tableView: UITableView)
     {
         ArtistCellGenerator.registerReuseIdentifier(for: tableView)
+        AdCellGenerator.registerReuseIdentifier(for: tableView)
     }
 }
 

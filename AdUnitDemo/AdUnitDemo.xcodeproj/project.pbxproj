@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4E698F7D1F8A867D0035822A /* UserInSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E698F7C1F8A867C0035822A /* UserInSession.swift */; };
+		4E9378C120342F9200E2EB06 /* AdCellGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9378C020342F9200E2EB06 /* AdCellGenerator.swift */; };
 		7E6331938638FE1B116EBF0C /* Pods_AdUnitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E92F8CDE68BFFD20FC361D9 /* Pods_AdUnitDemo.framework */; };
 		CE1C67DB200E3AB0000D8C21 /* AdsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C67DA200E3AB0000D8C21 /* AdsTableViewController.swift */; };
 		CE1C67DD200F7195000D8C21 /* ExtentionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1C67DC200F7195000D8C21 /* ExtentionUIView.swift */; };
@@ -72,6 +73,7 @@
 /* Begin PBXFileReference section */
 		4E698F7B1F8A70680035822A /* GTM-WQ25SD5 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTM-WQ25SD5"; sourceTree = "<group>"; };
 		4E698F7C1F8A867C0035822A /* UserInSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInSession.swift; sourceTree = "<group>"; };
+		4E9378C020342F9200E2EB06 /* AdCellGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdCellGenerator.swift; sourceTree = "<group>"; };
 		5E92F8CDE68BFFD20FC361D9 /* Pods_AdUnitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdUnitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D923582A0242F037B04FD9D /* Pods-AdUnitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdUnitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdUnitDemo/Pods-AdUnitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C8EADE47230773C07E7B03FC /* Pods-AdUnitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdUnitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdUnitDemo/Pods-AdUnitDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 			children = (
 				CE881FAF201495CB00EB2EA4 /* TableCellFactory.swift */,
 				CE881FB22014994F00EB2EA4 /* ArtistCellGenerator.swift */,
+				4E9378C020342F9200E2EB06 /* AdCellGenerator.swift */,
 				CE5C194420288E650080CBF0 /* HeaderSectionFactory.swift */,
 				CE5C1948202891D20080CBF0 /* GeneralSectionHeaderGenerator.swift */,
 			);
@@ -563,6 +566,7 @@
 				CE1C67E8200F8417000D8C21 /* AdsTableController.swift in Sources */,
 				CE1C67F4200FA055000D8C21 /* BannerAppAdunitMetaData.swift in Sources */,
 				CE1C67F2200FA036000D8C21 /* NativeAdsAdunitMetaData.swift in Sources */,
+				4E9378C120342F9200E2EB06 /* AdCellGenerator.swift in Sources */,
 				CE1C67E4200F8052000D8C21 /* DataControllerProtocol.swift in Sources */,
 				CEDFB8E81F7BCDD500BB84F9 /* ExtentionViewController.swift in Sources */,
 				CEB06C711FF2412500229736 /* ExtentionWindow.swift in Sources */,

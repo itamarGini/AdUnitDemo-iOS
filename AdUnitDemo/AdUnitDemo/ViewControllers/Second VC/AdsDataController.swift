@@ -128,6 +128,7 @@ extension AdsDataController : DataController
     func object(for indexPath: IndexPath) -> Any?
     {
         let section = items[indexPath.section] as Component
+        print(section)
         guard let sectionItems = section.items else { return nil }
 
         return sectionItems[indexPath.row]
